@@ -2101,3 +2101,9 @@ input[type=checkbox] {
     margin-left: 1rem;
   }
 }
+body {
+  cursor: url("https://github.com/Phalozzz/Phalozzz.github.io/cur/blue_point_default.cur"), auto;
+}
+a {
+  cursor: url("https://github.com/Phalozzz/Phalozzz.github.io/cur/blue_point_pointer.cur"), auto !important;
+}
