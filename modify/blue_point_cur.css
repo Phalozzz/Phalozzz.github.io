@@ -1,0 +1,6 @@
+html {
+	cursor: url(/img/blue_point_default.cur), auto;
+}
+a[href] {
+	cursor: url(/img/blue_point_pointer.cur), auto !important;
+}
