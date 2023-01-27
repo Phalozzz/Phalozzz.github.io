@@ -2102,8 +2102,8 @@ input[type=checkbox] {
   }
 }
 body {
-  cursor: url("https://github.com/Phalozzz/Phalozzz.github.io/tree/main/cur/blue_point_default.cur"), auto;
+  cursor: url("https://github.com/Phalozzz/Phalozzz.github.io/blob/main/cur/blue_point_default.cur"), auto;
 }
 a {
-  cursor: url("https://github.com/Phalozzz/Phalozzz.github.io/tree/main/cur/blue_point_pointer.cur"), auto !important;
+  cursor: url("https://github.com/Phalozzz/Phalozzz.github.io/blob/main/cur/blue_point_pointer.cur"), auto !important;
 }
