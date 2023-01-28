@@ -16,24 +16,27 @@
   <meta name="author" content="Phalos">
   <meta name="keywords" content="">
   
-    <meta name="description" content="摘要？">
+    <meta name="description" content="指针🖱">
 <meta property="og:type" content="article">
-<meta property="og:title" content="00-测试">
-<meta property="og:url" content="https://phalozzz.github.io/2023/01/25/%E6%B5%8B%E8%AF%95%E9%A1%B5/index.html">
+<meta property="og:title" content="01-魔改-Fluid">
+<meta property="og:url" content="https://phalozzz.github.io/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/index.html">
 <meta property="og:site_name" content="-Phalos-">
-<meta property="og:description" content="摘要？">
+<meta property="og:description" content="指针🖱">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://phalozzz.github.io/2023/01/25/%E6%B5%8B%E8%AF%95%E9%A1%B5/test.png">
-<meta property="article:published_time" content="2023-01-25T13:51:37.000Z">
-<meta property="article:modified_time" content="2023-01-28T17:24:14.414Z">
+<meta property="og:image" content="https://phalozzz.github.io/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor01.png">
+<meta property="og:image" content="https://phalozzz.github.io/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor02.png">
+<meta property="og:image" content="https://phalozzz.github.io/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor03.png">
+<meta property="article:published_time" content="2023-01-28T16:02:57.000Z">
+<meta property="article:modified_time" content="2023-01-28T17:45:02.200Z">
 <meta property="article:author" content="Phalos">
-<meta property="article:tag" content="测试">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="转载">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://phalozzz.github.io/2023/01/25/%E6%B5%8B%E8%AF%95%E9%A1%B5/test.png">
+<meta name="twitter:image" content="https://phalozzz.github.io/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor01.png">
   
   
   
-  <title>00-测试 - -Phalos-</title>
+  <title>01-魔改-Fluid - -Phalos-</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -201,7 +204,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="00-测试"></span>
+            <span id="subtitle" data-typed-text="01-魔改-Fluid"></span>
           
         </div>
 
@@ -212,8 +215,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-01-25 21:51" pubdate>
-          2023年1月25日 晚上
+        <time datetime="2023-01-29 00:02" pubdate>
+          2023年1月29日 凌晨
         </time>
       </span>
     
@@ -224,7 +227,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          11 字
+          1.2k 字
         
       </span>
     
@@ -235,7 +238,7 @@
         
         
         
-          1 分钟
+          6 分钟
         
       </span>
     
@@ -273,13 +276,26 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">00-测试</h1>
+            <h1 style="display: none">01-魔改-Fluid</h1>
             
             
               <div class="markdown-body">
                 
-                <p>00-test page</p>
-<img src="/2023/01/25/%E6%B5%8B%E8%AF%95%E9%A1%B5/test.png" srcset="/img/loading.gif" lazyload class="" title="测试图片-引用方法一">
+                <span id="more"></span>
+<h2 id="指针魔改（转载参考）"><a href="#指针魔改（转载参考）" class="headerlink" title="指针魔改（转载参考）"></a>指针魔改（转载参考）</h2><h3 id="参考博客"><a href="#参考博客" class="headerlink" title="参考博客"></a><a target="_blank" rel="noopener" href="https://asteri5m.gitee.io/archives/Fluid%E9%AD%94%E6%94%B9%E7%AC%94%E8%AE%B0.html#0x02-%E6%9B%BF%E6%8D%A2%E9%BC%A0%E6%A0%87%E6%8C%87%E9%92%88">参考博客</a></h3><p>Butterfly主题的魔改指针教程较多，而Fluid主题和Butterfly主题的修改方法略微不同，分享的方法也比较少，故作收集。</p>
+<h3 id="制作指针"><a href="#制作指针" class="headerlink" title="制作指针"></a>制作指针</h3><p>【如已有现成光标文件（.cur）可跳过。】<br>*推荐百度“自制光标&#x2F;指针”，下面仅记录当时我的笨拙方法。<br>使用透明底，分辨率32的png图片文件，大小可为32x32、64x64、128x128，gif应该也可以，我没想到有意思的点子所以没试；<br>用 <a target="_blank" rel="noopener" href="https://convertio.co/zh/cur-converter">CUR转换器</a> 把png文件转换成cur光标文件（这里没用Visua Studio或Axialis CursorWorkshop制作光标文件，所以无法指定指针作用点）；<br>现在获得了指针的素材，个数自定，我做了3个，普通指针（原箭头）、点击指针（原手指）和输入指针（原“I”）。</p>
+<h3 id="引入自定义css"><a href="#引入自定义css" class="headerlink" title="引入自定义css"></a>引入自定义css</h3><p>找到这个主题配置文件；</p>
+<img src="/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor01.png" srcset="/img/loading.gif" lazyload class="">
+
+<p>找到这里，custom_css后加上你的css文件路径（没有就新建一个再引入，避免动源代码）；</p>
+<img src="/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor02.png" srcset="/img/loading.gif" lazyload class="">
+
+<p>css文件中加入代码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs bash">/*指针修改*/<br>html &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/默认光标.cur&#x27;</span>), auto;<br>&#125;<br><br>a[href] &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto !important;<br>&#125;<br><br>.banner &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/默认光标.cur&#x27;</span>), auto;<br>&#125;<br><br>.scroll-down-bar &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto ;<br>&#125;<br><br>/* 搜索框、输入框 */<br>input, textarea &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/输入光标.cur&#x27;</span>), auto ;<br>&#125;<br><br><span class="hljs-comment">#local-search-close.close &#123;</span><br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto ;<br>&#125;<br><br>/* 按钮 */<br>button[class] &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto !important;<br>&#125;<br><br>/* 补充按钮 */<br>svg &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto !important;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>代码中url为相对位置，实际文件夹位置为：</p>
+<img src="/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor03.png" srcset="/img/loading.gif" lazyload class="">
+
+<h4 id="完成🎇"><a href="#完成🎇" class="headerlink" title="完成🎇"></a>完成🎇</h4><p>hexo cl &amp;&amp; hexo s查看效果即可XD</p>
 
                 
               </div>
@@ -288,32 +304,13 @@
             <div>
               <div class="post-metas my-3">
   
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/Java/" class="category-chain-item">Java</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
   
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E6%B5%8B%E8%AF%95/">#测试</a>
+        <a href="/tags/%E7%AC%94%E8%AE%B0/">#笔记</a>
+      
+        <a href="/tags/%E8%BD%AC%E8%BD%BD/">#转载</a>
       
     </div>
   
@@ -325,8 +322,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>00-测试</div>
-      <div>https://phalozzz.github.io/2023/01/25/测试页/</div>
+      <div>01-魔改-Fluid</div>
+      <div>https://phalozzz.github.io/2023/01/29/01-魔改-Fluid/</div>
     </div>
     <div class="license-meta">
       
@@ -338,7 +335,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年1月25日</div>
+          <div>2023年1月29日</div>
         </div>
       
       
@@ -387,18 +384,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/01/26/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/" title="00-加密测试">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">00-加密测试</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/01/25/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2023/01/26/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/" title="00-加密测试">
+                        <span class="hidden-mobile">00-加密测试</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

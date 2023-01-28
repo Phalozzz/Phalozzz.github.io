@@ -1,0 +1,29 @@
+/*指针修改-小蓝点*/
+html {
+	cursor: url(../img/cur/blue_cursor_default.cur), auto;
+}
+a[href] {
+	cursor: url(../img/cur/blue_cursor_pointer.cur), auto !important;
+}
+.banner {
+	cursor: url(../img/cur/blue_cursor_default.cur), auto;
+}
+.scroll-down-bar {
+	cursor: url(../img/cur/blue_cursor_pointer.cur), auto ;
+}
+/* 搜索框、输入框 */
+input, textarea {/* 这里应该是竖条光标 */
+	cursor: url(../img/cur/blue_cursor_IBeam.cur), auto ;
+}
+#local-search-close.close {
+	cursor: url(../img/cur/blue_cursor_pointer.cur), auto ;
+}
+/* 按钮 */
+button[class] {
+	cursor: url(../img/cur/blue_cursor_pointer.cur), auto !important;
+}
+
+/* 补充按钮 */
+svg {
+	cursor: url(../img/cur/blue_cursor_pointer.cur), auto !important;
+}
