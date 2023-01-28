@@ -27,7 +27,7 @@
 <meta property="og:image" content="https://phalozzz.github.io/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor02.png">
 <meta property="og:image" content="https://phalozzz.github.io/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor03.png">
 <meta property="article:published_time" content="2023-01-28T16:02:57.000Z">
-<meta property="article:modified_time" content="2023-01-28T17:45:02.200Z">
+<meta property="article:modified_time" content="2023-01-28T18:18:37.335Z">
 <meta property="article:author" content="Phalos">
 <meta property="article:tag" content="笔记">
 <meta property="article:tag" content="转载">
@@ -268,6 +268,21 @@
   <div class="row nomargin-x">
     <div class="side-col d-none d-lg-block col-lg-2">
       
+  <aside class="sidebar category-bar" style="margin-right: -1rem">
+    
+
+
+
+
+
+<div class="category-list">
+  
+  
+</div>
+
+
+  </aside>
+
 
     </div>
 
@@ -292,7 +307,7 @@
 
 <p>css文件中加入代码</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs bash">/*指针修改*/<br>html &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/默认光标.cur&#x27;</span>), auto;<br>&#125;<br><br>a[href] &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto !important;<br>&#125;<br><br>.banner &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/默认光标.cur&#x27;</span>), auto;<br>&#125;<br><br>.scroll-down-bar &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto ;<br>&#125;<br><br>/* 搜索框、输入框 */<br>input, textarea &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/输入光标.cur&#x27;</span>), auto ;<br>&#125;<br><br><span class="hljs-comment">#local-search-close.close &#123;</span><br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto ;<br>&#125;<br><br>/* 按钮 */<br>button[class] &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto !important;<br>&#125;<br><br>/* 补充按钮 */<br>svg &#123;<br>	cursor: url(<span class="hljs-string">&#x27;../img/cur/点击光标.cur&#x27;</span>), auto !important;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>代码中url为相对位置，实际文件夹位置为：</p>
+<p>代码中url为相对路径，实际文件夹位置为：</p>
 <img src="/2023/01/29/01-%E9%AD%94%E6%94%B9-Fluid/modify_cursor03.png" srcset="/img/loading.gif" lazyload class="">
 
 <h4 id="完成🎇"><a href="#完成🎇" class="headerlink" title="完成🎇"></a>完成🎇</h4><p>hexo cl &amp;&amp; hexo s查看效果即可XD</p>
