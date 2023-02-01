@@ -27,3 +27,8 @@ button[class] {
 svg {
 	cursor: url(../img/cur/blue_cursor_pointer.cur), auto !important;
 }
+
+/*关于页 二维码图标*/
+i {
+	cursor: url(../img/cur/blue_cursor_pointer.cur), auto ;
+}
